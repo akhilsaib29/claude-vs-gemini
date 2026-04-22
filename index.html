@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Platform Decision Brief: Gemini Enterprise vs Claude for Work</title>
+<title>Gemini Enterprise vs Claude for Cowork</title>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -194,7 +194,7 @@ body { font-family: 'IBM Plex Sans', sans-serif; background: var(--paper); color
 .info-banner p { font-size: 12px; color: #a1a1aa; line-height: 1.65; }
 
 /* VERDICT */
-/* .roi-table { width: 100%; border-collapse: collapse; margin-bottom: 40px; }
+.roi-table { width: 100%; border-collapse: collapse; margin-bottom: 40px; }
 .roi-table th { font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: .2em; text-transform: uppercase; color: var(--neutral); text-align: left; padding: 10px 14px; border-bottom: 2px solid var(--border); }
 .roi-table td { padding: 12px 14px; font-size: 13px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.5; }
 .roi-table tr:hover td { background: var(--white); }
@@ -209,7 +209,7 @@ body { font-family: 'IBM Plex Sans', sans-serif; background: var(--paper); color
 .rec-opt { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.07); border-radius: 14px; padding: 22px; }
 .rec-opt-lbl { font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: .18em; text-transform: uppercase; color: #fdba74; margin-bottom: 8px; }
 .rec-opt h5 { font-size: 14px; font-weight: 600; color: var(--white); margin-bottom: 6px; }
-.rec-opt p { font-size: 12px; color: #71717a; line-height: 1.6; } */
+.rec-opt p { font-size: 12px; color: #71717a; line-height: 1.6; }
 
 /* FOOTER */
 footer { background: var(--ink); padding: 28px 56px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
@@ -306,7 +306,7 @@ footer span { color: var(--claude-mid); }
   <div class="sec-head">
     <div class="sec-eyebrow">Pricing Transparency</div>
     <h2 class="sec-title">Cost Comparison — USD &amp; INR</h2>
-    <p class="sec-sub">Converted at ₹93.85/USD. INR values are approximate. Gemini 15% discount applied to standard $30 rate.</p>
+    <p class="sec-sub">Converted at ₹93.85/USD. INR values are approximate.</p>
   </div>
   <div class="pricing-grid">
     <div class="pricing-card">
@@ -331,7 +331,7 @@ footer span { color: var(--claude-mid); }
           <li class="price-feature"><span class="pf-icon ok">✓</span><span>File uploads, Artifacts, code execution</span></li>
           <li class="price-feature"><span class="pf-icon ok">✓</span><span><strong>Local file system access</strong> — reads files directly from your device via Claude Code</span></li>
           <li class="price-feature"><span class="pf-icon ok">✓</span><span>Zero data retention — your data never trains Claude</span></li>
-          <li class="price-feature"><span class="pf-icon warn">~</span><span>Team plan: $25/seat/month (≈ ₹2,346.25) · Min 5 users · Adds admin + collaboration features</span></li>
+          <li class="price-feature"><span class="pf-icon warn">~</span><span>Team plan: $25/seat/month (≈ ₹2,090) · Min 5 users · Adds admin + collaboration features</span></li>
           <li class="price-feature"><span class="pf-icon warn">~</span><span>Enterprise: custom pricing — min ~70 users, annual contract</span></li>
         </ul>
       </div>
@@ -346,11 +346,11 @@ footer span { color: var(--claude-mid); }
           <div class="price-usd">₹2,600</div>
           <div class="price-meta">
             <div class="price-per">Per user / month (list price)</div>
-            <div class="price-inr">≈ 15% discount only for 1st year (Vaild till April 30.)</div>
+            <div class="price-inr">≈15% discount only for 1st year (Vaild till April 30.)</div>
             <div class="price-note">Annual commitment required</div>
           </div>
         </div>
-        <span class="price-chip warn">⚠ 15% discount → (≈ ₹2,210) · Annual only</span>
+        <span class="price-chip warn">⚠ 15% discount → ~$25.50/user (≈ ₹2,210) · Annual only</span>
         <ul class="price-features">
           <li class="price-feature"><span class="pf-icon warn">!</span><span><strong>Minimum 5 users</strong> — smallest team: ₹10,650/month after discount</span></li>
           <li class="price-feature"><span class="pf-icon warn">!</span><span><strong>Annual commitment required</strong> — locked to 12-month plan</span></li>
@@ -362,7 +362,7 @@ footer span { color: var(--claude-mid); }
           <li class="price-feature"><span class="pf-icon no">✗</span><span><strong>No local file system access</strong> — cloud upload only</span></li>
         </ul>
         <div class="price-warning">
-          With 15% discount:(≈ ₹2,210) /user/month <br>
+          With 15% discount: ₹2,600 → (≈ ₹2,210)/user/month (≈ ₹2,130)<br>
           5 users minimum × ₹2,210 = <strong>₹11,050/month</strong><br>
           Annual commitment = <strong>₹1,32,600 upfront obligation</strong>
         </div>
@@ -370,7 +370,20 @@ footer span { color: var(--claude-mid); }
     </div>
   </div>
 
-
+  <div class="sec-head" style="margin-top:8px;">
+    <div class="sec-eyebrow">Cost Reality Check</div>
+    <h2 class="sec-title">What You Actually Pay</h2>
+  </div>
+  <table class="roi-table">
+    <thead><tr><th>Scenario</th><th>Claude for Work (INR)</th><th>Gemini Enterprise (INR)</th><th>Difference</th></tr></thead>
+    <tbody>
+      <tr><td>1 user, monthly</td><td class="win-claude">₹1,877/month</td><td class="win-tie">Not available (min 5)</td><td>Claude only option</td></tr>
+      <tr><td>3 users, monthly</td><td class="win-claude">₹5,631/month</td><td class="win-tie">Not available (min 5)</td><td>Claude only option</td></tr>
+      <tr><td>5 users (with Gemini 15% disc)</td><td class="win-claude">₹9,385/month, no lock-in</td><td>₹11,050/month + annual lock</td><td class="win-claude">₹1,665/month cheaper</td></tr>
+      <tr><td>Annual commitment required?</td><td class="win-claude">No — month-to-month billing</td><td class="win-tie">Yes — 12 months, pay upfront</td><td>More flexibility with Claude</td></tr>
+    </tbody>
+  </table>
+</div>
 </div>
 
 <!-- FEATURE MATRIX -->
@@ -541,8 +554,8 @@ footer span { color: var(--claude-mid); }
     </div>
   </div>
 
-  <div class="sec-head">
-    <div class="sec-eyebrow">Implementation Path</div>
+  <!-- <div class="sec-head">
+    <!-- <div class="sec-eyebrow">Implementation Path</div>
     <h2 class="sec-title">Claude for Work: 30-Day Rollout</h2>
   </div>
   <div class="timeline">
@@ -550,8 +563,8 @@ footer span { color: var(--claude-mid); }
     <div class="tl-item"><div class="tl-week">Week 2 — Credit Ops Pilot</div><h5>Drafting &amp; Analysis</h5><p>Run 3–5 real credit memos through Claude. Measure time-to-first-draft vs current benchmark. Load issuer document archives and local model files into Projects via Claude Code local access.</p></div>
     <div class="tl-item"><div class="tl-week">Week 3 — BD Pilot</div><h5>Outreach Campaign</h5><p>Connect Salesforce/HubSpot via MCP connector. Generate first batch of 50 personalised outreach emails. Measure open rates vs control group. Enable push notifications on mobile for BD team.</p></div>
     <div class="tl-item"><div class="tl-week">Week 4 — Scale</div><h5>Full Team Rollout</h5><p>Full team onboarding, custom instructions per department, Computer Use evaluation for Bloomberg automation, quarterly ROI baseline established. All team members active on mobile.</p></div>
-  </div>
-</div>
+  </div> -->
+</div> -->
 </div>
 
 <!-- VERDICT -->
@@ -626,7 +639,7 @@ const compareData = [
   { group: "Pricing & Accessibility" },
   { feat: "Minimum Users", sub: "Smallest team you can start with", gem: "5 users (min)", claude: "1 user (min)", gemType: "partial", claudeType: "yes" },
   { feat: "Annual Commitment", sub: "Locked to 12-month plan", gem: "Required", claude: "Not required", gemType: "no", claudeType: "yes" },
-  { feat: "Price per User (INR)", sub: "Monthly cost at base rate", gem: "~₹2,130 (w/ disc)", claude: "₹1,877", gemType: "partial", claudeType: "yes" },
+  { feat: "Price per User (INR)", sub: "Monthly cost at base rate", gem: "~₹2,130 (w/ disc)", claude: "₹1,670", gemType: "partial", claudeType: "yes" },
   { group: "Mobile & Remote" },
   { feat: "iOS App", sub: "iPhone access", gem: "✓ Admin-provisioned", claude: "✓ Direct download", gemType: "partial", claudeType: "yes" },
   { feat: "Android App", sub: "Android access", gem: "✓ Admin-provisioned", claude: "✓ Direct download", gemType: "partial", claudeType: "yes" },
@@ -684,4 +697,4 @@ function showTab(id, btn) {
 renderScores(); renderCompare();
 </script>
 </body>
-</html>
+</html>a
